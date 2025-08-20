@@ -24,6 +24,6 @@ spec:
       name: kube-ovn-controller
       namespace: kube-system
     - apiVersion: apps/v1
-      kind: StatefulSet
+      kind: Deployment
       name: ovn-central
       namespace: kube-system
