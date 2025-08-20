@@ -17,10 +17,8 @@ spec:
       kubeovn:
         tag: v1.14.5
 
-    masterNodes:
-      - 10.2.1.126
-    masterNodesLabels: {}
     masterNodesLabels:
+      kube-ovn/role: null
       node-role.kubernetes.io/control-plane: ""
 
     networking:
