@@ -6,7 +6,7 @@ metadata:
 spec:
   path: ./flux/apps/kube-system/kube-ovn/app
   prune: true
-  targetNamespace: system
+  targetNamespace: kube-system
   sourceRef:
     kind: GitRepository
     name: spectrum
