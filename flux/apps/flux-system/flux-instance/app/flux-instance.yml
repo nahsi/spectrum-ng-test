@@ -22,3 +22,13 @@ spec:
     multitenant: false
     networkPolicy: true
     domain: "cluster.local"
+  kustomize:
+    patches:
+      - target:
+          kind: Deployment
+          labelSelector: app.kubernetes.io/part-of=flux
+        patch: |-
+          - op: replace
+            path: /spec/strategy
+            value:
+              type: Recreate
