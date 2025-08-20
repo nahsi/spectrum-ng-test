@@ -4,7 +4,7 @@ metadata:
   name: kube-ovn
   namespace: flux-system
 spec:
-  path: ./flux/apps/system/kube-ovn/app
+  path: ./flux/apps/kube-system/kube-ovn/app
   prune: true
   targetNamespace: system
   sourceRef:
