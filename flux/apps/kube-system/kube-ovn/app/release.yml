@@ -19,6 +19,7 @@ spec:
 
     masterNodes:
       - 10.2.1.126
+    masterNodesLabels: {}
     masterNodesLabels:
       node-role.kubernetes.io/control-plane: ""
 
