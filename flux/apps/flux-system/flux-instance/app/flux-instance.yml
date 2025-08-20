@@ -22,9 +22,3 @@ spec:
     multitenant: false
     networkPolicy: true
     domain: "cluster.local"
-  sync:
-    kind: GitRepository
-    url: https://github.com/nahsi/spectrum-ng-test
-    ref: refs/heads/main
-    path: clusters/test
-    provider: github

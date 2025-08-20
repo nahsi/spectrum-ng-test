@@ -10,6 +10,6 @@ spec:
   targetNamespace: flux-system
   sourceRef:
     kind: GitRepository
-    name: infra
+    name: spectrum
   dependsOn:
     - name: flux-operator
