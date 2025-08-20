@@ -26,5 +26,5 @@ spec:
     kind: GitRepository
     url: https://github.com/nahsi/spectrum-ng-test
     ref: refs/heads/main
-    path: clusters/bootstrap
+    path: clusters/test
     provider: github
