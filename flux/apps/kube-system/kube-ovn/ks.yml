@@ -24,22 +24,6 @@ spec:
       name: kube-ovn-controller
       namespace: kube-system
     - apiVersion: apps/v1
-      kind: Deployment
-      name: kube-ovn-monitor
-      namespace: kube-system
-    - apiVersion: apps/v1
       kind: StatefulSet
       name: ovn-central
-      namespace: kube-system
-    - apiVersion: apps/v1
-      kind: DaemonSet
-      name: kube-ovn-cni
-      namespace: kube-system
-    - apiVersion: apps/v1
-      kind: DaemonSet
-      name: ovs-ovn
-      namespace: kube-system
-    - apiVersion: apps/v1
-      kind: DaemonSet
-      name: kube-ovn-pinger
       namespace: kube-system
